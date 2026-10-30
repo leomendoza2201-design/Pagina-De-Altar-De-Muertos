@@ -1,0 +1,326 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altar de Muertos</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5eee5;
+            color: #333;
+        }
+
+        header {
+            background-color: #8b2929;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header h1 {
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background-color: #542b2b;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #f4c66a;
+        }
+
+        section {
+            padding: 35px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #8b2929;
+        }
+
+        .principal p {
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.7;
+            font-size: 17px;
+        }
+
+        .altar {
+            background-color: #eee0ce;
+        }
+
+        .dibujo-altar {
+            background-color: #d7a66c;
+            max-width: 650px;
+            margin: auto;
+            padding: 20px;
+            border: 5px solid #8b2929;
+        }
+
+        .nivel {
+            background-color: #8b2929;
+            color: white;
+            padding: 18px;
+            margin: 12px auto;
+            border: 2px solid #e6c27a;
+        }
+
+        .nivel:nth-child(2) {
+            width: 85%;
+        }
+
+        .nivel:nth-child(3) {
+            width: 70%;
+        }
+
+        .nivel:nth-child(4) {
+            width: 55%;
+        }
+
+        .nivel:nth-child(5) {
+            width: 40%;
+        }
+
+        .contenedor {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .tarjeta {
+            background-color: white;
+            width: 220px;
+            padding: 20px;
+            border: 1px solid #d5b89a;
+            border-radius: 5px;
+        }
+
+        .tarjeta img {
+            width: 65px;
+            height: 65px;
+            object-fit: contain;
+        }
+
+        .tarjeta h3 {
+            color: #8b2929;
+        }
+
+        .tarjeta p {
+            line-height: 1.5;
+        }
+
+        .decoracion {
+            width: 45px;
+            height: 45px;
+            object-fit: contain;
+            margin: 5px;
+            vertical-align: middle;
+        }
+
+        .tradicion {
+            background-color: #eee0ce;
+        }
+
+        .tradicion p {
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.7;
+        }
+
+        footer {
+            background-color: #542b2b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 27px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Altar de Muertos</h1>
+        <p>Tradiciones mexicanas</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#altar">El Altar</a>
+        <a href="#elementos">Elementos</a>
+        <a href="#tradicion">Tradición</a>
+    </nav>
+
+    <section class="principal" id="inicio">
+        <h2>Bienvenidos</h2>
+
+        <p>
+            El Día de Muertos es una celebración muy importante
+            en México. Se lleva a cabo el 1 y 2 de noviembre
+            para recordar a nuestros familiares y amigos que
+            han fallecido. Una de las principales costumbres
+            es colocar un altar con fotografías, flores,
+            veladoras y alimentos.
+        </p>
+    </section>
+
+    <section class="altar" id="altar">
+        <h2>El Altar de Muertos</h2>
+
+        <div class="dibujo-altar">
+
+            <div>
+                <img class="decoracion"
+                src="https://pic.pngsucai.com/01/13/60/35683b28ca0b1f87.webp"
+                alt="Flor">
+
+                <img class="decoracion"
+                src="https://pic.pngsucai.com/01/13/60/35683b28ca0b1f87.webp"
+                alt="Flor">
+
+                <img class="decoracion"
+                src="https://pic.pngsucai.com/01/13/60/35683b28ca0b1f87.webp"
+                alt="Flor">
+
+                <img class="decoracion"
+                src="https://pic.pngsucai.com/01/13/60/35683b28ca0b1f87.webp"
+                alt="Flor">
+
+                <img class="decoracion"
+                src="https://pic.pngsucai.com/01/13/60/35683b28ca0b1f87.webp"
+                alt="Flor">
+            </div>
+
+            <div class="nivel">
+                Nivel 1: Representación del cielo
+            </div>
+
+            <div class="nivel">
+                Nivel 2: Fotografías y veladoras
+            </div>
+
+            <div class="nivel">
+                Nivel 3: Flores de cempasúchil
+            </div>
+
+            <div class="nivel">
+                Nivel 4: Comida y pan de muerto
+            </div>
+
+            <div style="margin-top:15px;">
+
+                <img class="decoracion"
+                src="https://cdn.imgbin.com/7/2/1/sugar-skull-decorative-mexican-sugar-skull-for-day-of-the-dead-cT4ZBT9N.jpg"
+                alt="Calavera">
+
+                <img class="decoracion"
+                src="https://img.favpng.com/14/20/14/day-of-the-dead-candles-golden-candle-with-marigolds-4tnn1fh2.jpg"
+                alt="Veladora">
+
+                <img class="decoracion"
+                src="https://img.favpng.com/4/15/15/pan-de-muerto-golden-pan-de-muerto-with-marigolds-xrfaZ1ee.jpg"
+                alt="Comida">
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="elementos">
+        <h2>Elementos del Altar</h2>
+
+        <div class="contenedor">
+
+            <div class="tarjeta">
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/72x72/1f33c.png"
+                alt="Flor de cempasúchil">
+                <h3>Flor de Cempasúchil</h3>
+                <p>Se utiliza para guiar a las almas hacia el altar.</p>
+            </div>
+
+            <div class="tarjeta">
+                <img src="https://img.favpng.com/14/20/14/day-of-the-dead-candles-golden-candle-with-marigolds-4tnn1fh2.jpg"
+                alt="Veladora">
+                <h3>Veladoras</h3>
+                <p>Representan la luz que guía a los difuntos.</p>
+            </div>
+
+            <div class="tarjeta">
+                <img src="https://img.favpng.com/4/15/15/pan-de-muerto-golden-pan-de-muerto-with-marigolds-xrfaZ1ee.jpg"
+                alt="Pan">
+                <h3>Pan de Muerto</h3>
+                <p>Es uno de los alimentos más representativos de esta fecha.</p>
+            </div>
+
+            <div class="tarjeta">
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/72x72/1f4a7.png"
+                alt="Agua">
+                <h3>Agua</h3>
+                <p>Se coloca para ofrecer descanso a las almas.</p>
+            </div>
+
+            <div class="tarjeta">
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/72x72/1f4f7.png"
+                alt="Fotografía">
+                <h3>Fotografías</h3>
+                <p>Recuerdan a nuestros seres queridos que ya no están.</p>
+            </div>
+
+            <div class="tarjeta">
+                <img src="https://cdn.imgbin.com/7/2/1/sugar-skull-decorative-mexican-sugar-skull-for-day-of-the-dead-cT4ZBT9N.jpg"
+                alt="Calaverita">
+                <h3>Calaveritas</h3>
+                <p>Son parte de la decoración tradicional del Día de Muertos.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="tradicion" id="tradicion">
+        <h2>Nuestra Tradición</h2>
+
+        <p>
+            El Día de Muertos es una tradición que nos permite
+            recordar a las personas que fueron importantes
+            en nuestras vidas. En esta fecha las familias
+            se reúnen para preparar sus altares y compartir
+            recuerdos. Es una costumbre mexicana que se
+            transmite de generación en generación.
+        </p>
+
+        <br>
+        <h3>Recordando a quienes siempre estarán con nosotros.</h3>
+    </section>
+
+    <footer>
+        <p>Proyecto escolar - Día de Muertos</p>
+        <p>Página elaborada en HTML y CSS</p>
+    </footer>
+
+</body>
+</html>
